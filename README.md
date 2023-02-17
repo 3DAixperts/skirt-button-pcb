@@ -3,6 +3,8 @@
 ![image](V1/images/thumbnail.png)
 ![image](V1/images/thumbnail2.png)
 
+Currently we cannot provide STL and STEP files. We are working on a solution.
+
 Pre-flashed and ready to go!
 
 This is our Skirt Button PCB with 7 tactile switches and 2 WS2812 RG LEDs per switch.
