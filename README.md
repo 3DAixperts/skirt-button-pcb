@@ -1,5 +1,6 @@
 # Voron Skirt Button PCB V1
 ![image](V1/images/thumbnail3.png)
+![image](Manual/mounting.gif)
 ![image](V1/images/thumbnail.png)
 ![image](V1/images/thumbnail2.png)
 
