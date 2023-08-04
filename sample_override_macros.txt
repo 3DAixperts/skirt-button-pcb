@@ -1,0 +1,47 @@
+[gcode_macro M104]
+rename_existing: M104.1
+gcode:
+  _status_button_busy BUTTON=5
+  M104.1 { rawparams }
+  _status_button_ready
+
+[gcode_macro M109]
+rename_existing: M109.1
+gcode:
+  _status_button_busy BUTTON=5
+  M109.1 { rawparams }
+  _status_button_ready
+
+[gcode_macro M140]
+rename_existing: M140.1
+gcode:
+  _status_button_busy BUTTON=5
+  M140.1 { rawparams }
+  _status_button_ready
+
+[gcode_macro M190]
+rename_existing: M190.1
+gcode:
+  _status_button_busy BUTTON=5
+  M190.1 { rawparams }
+  _status_button_ready
+
+[gcode_macro SET_HEATER_TEMPERATURE]
+rename_existing: _SET_HEATER_TEMPERATURE
+gcode:
+  _status_button_busy BUTTON=5
+  _SET_HEATER_TEMPERATURE { rawparams }
+  _status_button_ready
+
+[gcode_macro TURN_OFF_HEATERS]
+rename_existing: _TURN_OFF_HEATERS
+gcode:
+  _status_button_busy BUTTON=5
+  _TURN_OFF_HEATERS
+  _status_button_standby
+
+[gcode_macro G28]
+rename_existing: G28.1
+  _status_button_busy BUTTON=4
+  G28.1
+  _status_button_ready BUTTON=4
